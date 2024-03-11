@@ -27,7 +27,7 @@ const connect = () => {
   app.use("/api/tweets", tweetRoutes);
 
 
-app.listen(3000, () => {
+app.listen(8000, () => {
  connect();
-    console.log("Listening to port 3000");
+    console.log("Listening to port 8000");
   }); 
